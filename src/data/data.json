@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "我们比你更加期待着你的成功",
+    "paragraph": "包入学，包找工作，只要你不满意，我们全额退款"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "让我们为你制定最经济有效的美国留学策略",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "权威招生官专业指导申请",
+      "洞悉招生政策，前瞻专业动向",
+      "个性化定制各项申请文书",
+      "灵活制定申请策略，锁定申请最优解"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "一线大厂面试官把控求职培训",
+      "包找工作，护航求职入职每一步",
+      "拒绝低薪，专注前沿大厂科技岗位",
+      "坚持完美主义，狙击Dream Offer"
     ]
   },
   "Gallery": [
@@ -162,23 +162,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "留学申请",
+      "text": "高中生(读本科)/大学生(读研)/研究生(二硕)，专注名校申请，关注留学性价比"
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "背景提升",
+      "text": "专业选择咨询/选校策略制定/文书润色，直击藤校，规化长远，只选王牌专业"
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "转学名校",
+      "text": "在读本科生/在读硕士，转专业/转学校/转day1 cpt学校，圆梦名校好专业"
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "就业指导",
+      "text": "科技行业求职咨询/内推，面试辅导/简历修改，就业不愁，轻松上岸好公司好岗位"
     }
   ]
 }

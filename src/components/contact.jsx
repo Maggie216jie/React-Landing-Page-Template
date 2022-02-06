@@ -1,39 +1,89 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import emailjs from 'emailjs-com'
+import WholePageLoading from './WholePageLoading'
 
 const initialState = {
-  name: '',
-  email: '',
+  from_name: '',
+  reply_to: '',
   message: '',
 }
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
+  const [{ from_name, reply_to, message }, setState] = useState(initialState)
+  const [pageLoading, setPageLoading] = useState(false)
+  const [responseInfo, setMessageInfo] = useState({
+    responseContent:"",
+    displayRes:false
+  })
+  //console.log(name,email,message)
+
+  const form = useRef();
 
   const handleChange = (e) => {
     const { name, value } = e.target
     setState((prevState) => ({ ...prevState, [name]: value }))
   }
-  const clearState = () => setState({ ...initialState })
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(name, email, message)
+    setPageLoading(true)
+ 
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_x0vvmsb', 'template_vsts92j', form.current, 'user_PjxH44JxLz46gKwl3Ukli'
       )
       .then(
         (result) => {
           console.log(result.text)
-          clearState()
+          setState({
+            from_name: '',
+            reply_to: '',
+            message: '',
+          })
+          setMessageInfo({
+            responseContent:"Success! Thanks so much for your email, we will reply soon!",
+            displayRes:true
+
+          })
+
+          setTimeout(()=>{
+            setPageLoading(false)
+
+            setMessageInfo({
+              responseContent:"",
+              displayRes:false
+  
+            })
+
+          }, 3000)
         },
         (error) => {
-          console.log(error.text)
+    
+          setMessageInfo({
+            responseContent:"Something is wrong, please try later!",
+            displayRes:true
+
+          })
+
+          setTimeout(()=>{
+            setPageLoading(false)
+
+            setMessageInfo({
+              responseContent:"",
+              displayRes:false
+  
+            })
+
+          }, 3000)
         }
       )
   }
   return (
     <div>
+    {pageLoading&&
+     <WholePageLoading 
+     responseInfo={responseInfo}
+     />
+    }
       <div id='contact'>
         <div className='container'>
           <div className='col-md-8'>
@@ -45,18 +95,19 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
+              <form name='sentMessage' ref={form} onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
                       <input
                         type='text'
                         id='name'
-                        name='name'
+                        name='from_name'
                         className='form-control'
                         placeholder='Name'
                         required
                         onChange={handleChange}
+                        value={from_name}
                       />
                       <p className='help-block text-danger'></p>
                     </div>
@@ -66,11 +117,12 @@ export const Contact = (props) => {
                       <input
                         type='email'
                         id='email'
-                        name='email'
+                        name='reply_to'
                         className='form-control'
                         placeholder='Email'
                         required
                         onChange={handleChange}
+                        value={reply_to}
                       />
                       <p className='help-block text-danger'></p>
                     </div>
@@ -85,6 +137,7 @@ export const Contact = (props) => {
                     placeholder='Message'
                     required
                     onChange={handleChange}
+                    value={message}
                   ></textarea>
                   <p className='help-block text-danger'></p>
                 </div>

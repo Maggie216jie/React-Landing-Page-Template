@@ -69,64 +69,64 @@
     {
       "icon": "fa fa-wordpress",
       "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "战胜自己的懦弱 我们终将成为更好的自己！感谢成蝶留学帮我突破了自己的极限 重新定义了自己的未来."
     },
     {
       "icon": "fa fa-cart-arrow-down",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "伯克利大学我来啦 收到转学录取的消息我和男朋友都喜极而泣 我一定会把握住这个机会 在新的平台上迎接新的挑战."
     },
     {
       "icon": "fa fa-cloud-download",
       "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "非常幸运认识成蝶留学这个平台 给了我自信和勇气 申到了5所梦校 成蝶留学我们就业季再见"
     },
     {
       "icon": "fa fa-language",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": " 感谢成蝶留学Eric导师 每次one on one都干货满满 在我最孤立无助的时候一直鼓励我 没有浪费一分一秒的时间 不断打磨优化我的文书 坚强地熬过了低谷 拿到梦校 offer."
     },
     {
       "icon": "fa fa-plane",
       "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "疫情期间找工作10场面试7个offer 斩获心仪大厂 谢谢成蝶 一路有你 小小骄傲一下 我们都是最棒哒."
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "今天从成蝶大家庭毕业啦 3年前的我还在new jersey 读着社区大学 如今offer在手 准备到湾区开始新生活 在成蝶认识了这么多志同道合的好朋友 虽然即将分离 好在大家都有一个好前程 我们一定会再见的."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"战胜自己的懦弱 我们终将成为更好的自己！感谢成蝶留学帮我突破了自己的极限 重新定义了自己的未来.\"",
+      "name": "Mengxue W (Amazon工程师 康奈尔大学本硕-统计专业)"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"伯克利大学我来啦 我和男朋友都喜极而泣 我一定会把握住这个机会 在新的平台上迎接挑战.\"",
+      "name": "Mia W (Amazon工程师 哥伦比亚大学研究生-金融专业)"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"非常幸运认识成蝶留学这个平台 给了我自信和勇气 申到了5所梦校 成蝶留学我们就业季再见.\"",
+      "name": "Joy H (Amazon工程师 伯克利大学本科-金融专业)"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\" 感谢成蝶留学Eric导师 每次one on one都干货满满 在我最孤立无助的时候一直鼓励我 没有浪费一分一秒的时间 不断打磨优化我的文书 坚强地熬过了低谷 拿到梦校 offer.\"",
+      "name": "Simon F (Amazon工程师 罗格斯大学本硕-CS专业)"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"疫情期间找工作10场面试7个offer 斩获心仪大厂 谢谢成蝶 一路有你 小小骄傲一下 我们都是最棒哒.\"",
+      "name": "思源 (Google工程师 麻省理工-CS专业)"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"今天从成蝶大家庭毕业啦 3年前的我还在new jersey 读着社区大学 如今offer在手 准备到湾区开始新生活 在成蝶认识了这么多志同道合的好朋友 虽然即将分离 好在大家都有一个好前程 我们一定会再见的.\"",
+      "name": "Eric W (Microsoft工程师 UCSD大学-地质专业)"
     }
   ],
   "Team": [

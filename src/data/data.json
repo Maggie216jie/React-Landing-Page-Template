@@ -101,7 +101,7 @@
     {
       "img": "img/testimonials/01.jpg",
       "text": "\"战胜自己的懦弱 我们终将成为更好的自己！感谢成蝶留学帮我突破了自己的极限 重新定义了自己的未来.\"",
-      "name": "Mengxue W (Amazon工程师 康奈尔大学本硕-统计专业)"
+      "name": "Kiko W (Amazon工程师 康奈尔大学本硕-统计专业)"
     },
     {
       "img": "img/testimonials/02.jpg",
@@ -132,23 +132,23 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Leo He",
+      "job": "留学选校申请策略总监"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Wendy Zhang",
+      "job": "文书升级背景包装总监"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Yinan Liu",
+      "job": "转校策划学术支持总监"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Xinyue Liang",
+      "job": "就业指导百分百就业计划总监"
     }
   ],
   "Contact": {

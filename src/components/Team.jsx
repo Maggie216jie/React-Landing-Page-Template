@@ -5,8 +5,7 @@ export const Team = (props) => {
         <div className='col-md-8 col-md-offset-2 section-title'>
           <h2>Meet the Team</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            在美精英团队帮助学员进入理想院校同时帮助上百名同学成功在美高薪就业！
           </p>
         </div>
         <div id='row'>

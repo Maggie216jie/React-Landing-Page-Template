@@ -91,8 +91,8 @@ export const Contact = (props) => {
               <div className='section-title'>
                 <h2>Get In Touch</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  想离名校更换进一步？ 想毕业成功高薪就业？想提高未来生活质量？
+                  如果想！请联系我们！ 请留下您的微信或者邮箱信息 我们会第一时间帮您答疑。
                 </p>
               </div>
               <form name='sentMessage' ref={form} onSubmit={handleSubmit}>
@@ -104,7 +104,7 @@ export const Contact = (props) => {
                         id='name'
                         name='from_name'
                         className='form-control'
-                        placeholder='Name'
+                        placeholder='姓名'
                         required
                         onChange={handleChange}
                         value={from_name}
@@ -119,7 +119,7 @@ export const Contact = (props) => {
                         id='email'
                         name='reply_to'
                         className='form-control'
-                        placeholder='Email'
+                        placeholder='请留下您的微信或者其他联系方式'
                         required
                         onChange={handleChange}
                         value={reply_to}
@@ -134,7 +134,7 @@ export const Contact = (props) => {
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Message'
+                    placeholder='任何疑问想问我们？'
                     required
                     onChange={handleChange}
                     value={message}
@@ -177,25 +177,7 @@ export const Contact = (props) => {
           </div>
           <div className='col-md-12'>
             <div className='row'>
-              <div className='social'>
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -203,10 +185,11 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
+            &copy; 2020 本网站所有权由成蝶留学所有. 
+            {/* Design by{' '}
             <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire
-            </a>
+            </a> */}
           </p>
         </div>
       </div>
